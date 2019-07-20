@@ -51,7 +51,7 @@ def initialize() {
             def existingDevice = getChildDevice(deviceId)
             if(!existingDevice) {
             	log.warn "${deviceId} and ${theHub}"
-                def childDevice = addChildDevice("jebbett", "Plex Communicator Device", deviceId, settings.theHub, [name: deviceId, label: storedDevices."$deviceId".name, completedSetup: false])
+                def childDevice = addChildDevice("jebbett", "Plex Communicator Device", deviceId, null, [name: deviceId, label: storedDevices."$deviceId".name, completedSetup: false])
             }
         } catch (e) { log.error "Error creating device: ${e}" }
     }
