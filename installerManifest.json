@@ -1,0 +1,38 @@
+{
+    "namespace": "jebbett",
+    "repoOwner": "Carl Kaehler",
+    "repoName": "Plex-Communicator",
+    "repoBranch": "master",
+    "name": "Plex Communicator",
+    "author": "Carl Kaehler",
+    "description": "",
+    "category": "My Apps",
+    "bannerUrl": "",
+    "forumUrl": "",
+    "docUrl": "",
+    "releaseType": "production",
+    "keywords": [""],
+    "notes": "Nothing to show here (yet)",
+    "smartApps": {
+        "parent": {
+            "name": "PlexPlus",
+            "iconUrl": "",
+            "published": true,
+            "oAuth": true,
+            "appSettings": {},
+            "version": "0.0.1",
+            "appUrl": "smartapps/jebbett/plexplus.src/plexplus.groovy"
+        }
+    },
+    "deviceHandlers": [{
+            "name": "Plex Plus Device",
+            "iconUrl": "",
+            "published": true,
+            "oAuth": false,
+            "appUrl": "devicetypes/jebbett/plex-plus-device.src/plex-plus-device.groovy",
+            "appSettings": {},
+            "version": "0.0.1",
+            "optional": false
+        }
+    ]
+}
