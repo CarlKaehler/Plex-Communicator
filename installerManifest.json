@@ -15,21 +15,21 @@
     "notes": "Nothing to show here (yet)",
     "smartApps": {
         "parent": {
-            "name": "PlexPlus",
+            "name": "Plex-Communicator",
             "iconUrl": "",
             "published": true,
             "oAuth": true,
             "appSettings": {},
             "version": "0.0.1",
-            "appUrl": "smartapps/jebbett/plexplus.src/plexplus.groovy"
+            "appUrl": "smartapps/jebbett/plex-comminicator.src/plex-communicator.groovy"
         }
     },
     "deviceHandlers": [{
-            "name": "Plex Plus Device",
+            "name": "Plex Communicator Device",
             "iconUrl": "",
             "published": true,
             "oAuth": false,
-            "appUrl": "devicetypes/jebbett/plex-plus-device.src/plex-plus-device.groovy",
+            "appUrl": "devicetypes/jebbett/plex-communicator-device.src/plex-communicator-device.groovy",
             "appSettings": {},
             "version": "0.0.1",
             "optional": false
