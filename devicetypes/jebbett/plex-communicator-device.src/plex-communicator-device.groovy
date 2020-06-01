@@ -18,6 +18,7 @@
 metadata {
 	definition (name: "Plex Communicator Device", namespace: "jebbett", author: "jebbett") {
 	capability "musicPlayer"
+        capability "audioVolume"
 	command "playbackType", ["string"]
 	attribute "playbackType", "string"
 	}

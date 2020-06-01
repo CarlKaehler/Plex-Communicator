@@ -17,6 +17,7 @@
 
 metadata {
 	definition (name: "Hubconnect Plex Communicator Device", namespace: "shackrat", author: "Carl Kaehler") {
+        capability "Audio Volume"
 	capability "Music Player"
         command "playbackType", ["string"]
 	attribute "playbackType", "string"
