@@ -16,8 +16,8 @@
  */
 
 metadata {
-	definition (name: "Hubconnect Plex Communicator Device", namespace: "shackrat", author: "Carl Kaehler",
-		importUrl: "https://raw.githubusercontent.com/CarlKaehler/Plex-Communicator/master/Hubitat/Hubconnect/Hubconnect%20Plex%20Communicator%20Device") 
+	definition (name: "HubConnect Plex Communicator Device", namespace: "shackrat", author: "Carl Kaehler",
+		importUrl: "https://raw.githubusercontent.com/CarlKaehler/Plex-Communicator/master/Hubitat/Hubconnect/HubConnect%20Plex%20Communicator%20Device") 
 	{
         capability "Audio Volume"
 	capability "Music Player"
