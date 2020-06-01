@@ -46,3 +46,10 @@ def pause() {
 def stop() {
     parent.sendDeviceEvent(device.deviceNetworkId, "status", ["stopped"])
 }
+
+def sync()
+{
+    // The server will respond with updated status and details
+    parent.syncDevice(device.deviceNetworkId, "PlexDevice")
+    sendEvent([name: "version", value: "v${driverVersion.major}.${driverVersion.minor}.${driverVersion.build}"])
+}
