@@ -16,11 +16,18 @@
  */
 
 metadata {
-	definition (name: "Hubconnect Plex Communicator Device", namespace: "shackrat", author: "Carl Kaehler") {
+	definition (name: "Hubconnect Plex Communicator Device", namespace: "shackrat", author: "Carl Kaehler",
+		importUrl: "https://raw.githubusercontent.com/CarlKaehler/Plex-Communicator/master/Hubitat/Hubconnect/Hubconnect%20Plex%20Communicator%20Device") 
+	{
         capability "Audio Volume"
 	capability "Music Player"
         command "playbackType", ["string"]
 	attribute "playbackType", "string"
+	attribute "level", "number"
+	attribute "mute", "enum", ["muted", "unmuted"]
+	attribute "status", "string"
+	attribute "trackData", "string"
+	attribute "trackDescription", "string"
 	}
 }
 
